@@ -1,0 +1,36 @@
+:toc:
+:sectnums:
+:toclevels: 5
+:sectnumlevels: 5
+:showcomments:
+:xrefstyle: short
+:icons: font
+:source-highlighter: coderay
+:tick: &#x2714;
+:pound: &#xA3;
+:stem:
+
+= Title
+
+== Part 1 
+
+* Recognition of square numbers up to stem:[50^2]
+* Recognition of the first few cubic numbers: 1, 8, 27, 64, 125, 216, 343, 512
+* Recognition of powers of two up to stem:[2^20]
+* Metric prefixes from pico to terra
+* Know that stem:[3.5 * 2.5] is stem:[35 * 25 / 100]
+* Squares of numbers such as 2.5 from stem[25^2]. Recognise that the number is between 4 and 9.
+
+== Part 2
+
+* Recognising that stem:[4x] means "four times x"
+* commutativity (komutativita) and associativity (asociativita)
+* simple examples of removing brackets
+* simple examples of adding brackets
+* Basic algebra with linear equations e.g. stem:[2x+4] = 12
+* Understanding how to manipulate simple equations (adding a constant to both sides, dividing by a constant)
+
+== Part 3
+
+* Negative numbers : adding, subtracting, multiplying and dividing
+* It's important to recognise that x / x is always one (unless x is zero).
