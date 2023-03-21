@@ -1,0 +1,69 @@
+:toc:
+:sectnums:
+:toclevels: 5
+:sectnumlevels: 5
+:showcomments:
+:xrefstyle: short
+:icons: font
+:source-highlighter: coderay
+:tick: &#x2714;
+:pound: &#xA3;
+:stem:
+
+= Compound interest
+
+== Preliminary (very easy) questions
+
+You have £300 in the bank. 
+
+. The bank pays 5% interest per year. How much do you have after one year?
+. The bank pays 50% interest per year. How much do you have after one year?
+. The bank pays 100% interest per year. How much do you have after one year?
+
+From this point forwards, we will use fractions instead of percentages for interest. For example,
+10% will be written as 0.1 and 5% will be 0.5.
+
+If you have £50 in the bank and you get 10% interest, how much will you have after one year?
+
+Answer 
+
+stem:[50*(1 + 0.1)]
+
+Let's say that instead of paying 10% interest once per year, the bank pays 5% interest twice per year. Write the formula:
+
+Answer:
+
+stem:[50*(1 + 0.05)*(1 + 0.05)] = stem:[50*(1 + 0.05)^2] = stem:[55.125]
+
+What if instead of paying 10% interest once per year, the bank pays 1% interest 10 times per year. Write the formula:
+
+stem:[50*(1 + 0.01)^10] = stem:[81.444]
+
+Now, let's make things really simple. The bank pays 100% interest in a year so that your money doubles, but you invest only £1.
+
+So after one year you would have £ stem:[1.(1 + 1)] = £ stem:[2]
+
+If the bank pays 50% twice per year you would have stem:[1.(1 + 1/2) ^ 2] = 2.25
+If the bank pays 10% ten times per year you would have stem:[1.(1 + 1/10) ^ 10] = 2.59
+If the bank pays 1% a hundred times per year you would have stem:[1.(1 + 1/100) ^ 100] = 2.7048
+
+What if the bank pays every second? There are stem:[24 * 3600 * 365] seconds in a year, which is 31536000. So our formula would be 
+
+stem:[(1 + 1/31536000)^31536000] which is 2.71828
+
+We can see that the final amount after one year approaches a limit. It's getting closer and closer to some target number and will 
+never go above that number.
+
+That number is called e - it's an irrational number (i.e. it cannot be expressed as a fraction). It never recurs.
+
+e to 50 decimal places is 2.71828182845904523536028747135266249.
+
+You can remember it as 2.7, followed by the year 1828 twice followed by 45, 90, 45 (which you can think of as angles).
+
+e stands for Euler's number - it is named after Leonhard Euler though it was discovered by Swiss mathematician Jacob Bernoulli.
+
+
+
+
+
+
